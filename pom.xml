@@ -30,7 +30,7 @@
                 <version>1.0.13</version>
             </dependency>
             <dependency>
-            <groupId>cglib</groupId>
+                <groupId>cglib</groupId>
                 <artifactId>cglib</artifactId>
                 <version>3.1</version>
             </dependency>
@@ -104,11 +104,10 @@
                 <artifactId>javax.servlet-api</artifactId>
                 <version>3.1.0</version>
             </dependency>
-            <!-- https://mvnrepository.com/artifact/org.apache.zookeeper/zookeeper -->
             <dependency>
                 <groupId>org.apache.zookeeper</groupId>
                 <artifactId>zookeeper</artifactId>
-                <version>3.4.10</version>
+                <version>RELEASE</version>
             </dependency>
 
 
