@@ -8,6 +8,18 @@
     <artifactId>test</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
+    <repositories>
+        <repository>
+            <id>alimaven</id>
+            <name>aliyun maven</name>
+            <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
+        </repository>
+        <repository>
+            <id>central-repos1</id>
+            <name>Central Repository 2</name>
+            <url>http://repo1.maven.org/maven2/</url>
+        </repository>
+    </repositories>
     <modules>
         <module>demos</module>
         <module>java</module>
@@ -37,18 +49,22 @@
             <dependency>
                 <groupId>com.google.guava</groupId>
                 <artifactId>guava</artifactId>
-                <version>21.0</version>
+                <version>31.1-jre</version>
             </dependency>
             <dependency>
                 <groupId>org.jboss.netty</groupId>
                 <artifactId>netty</artifactId>
                 <version>3.2.2.Final</version>
             </dependency>
+            <!-- https://mvnrepository.com/artifact/io.netty/netty-all -->
             <dependency>
                 <groupId>io.netty</groupId>
                 <artifactId>netty-all</artifactId>
+<!--                <version>5.0.0.Alpha2</version>-->
                 <version>4.1.7.Final</version>
+
             </dependency>
+
             <!--netty demo dependency-->
             <dependency>
                 <groupId>com.esotericsoftware</groupId>
@@ -125,10 +141,11 @@
             <dependency>
                 <groupId>org.projectlombok</groupId>
                 <artifactId>lombok</artifactId>
-                <version>1.18.2</version>
+                <version>1.18.26</version>
             </dependency>
 
 
         </dependencies>
     </dependencyManagement>
+
 </project>

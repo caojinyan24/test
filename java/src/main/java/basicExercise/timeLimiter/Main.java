@@ -5,11 +5,9 @@ import com.google.common.util.concurrent.SimpleTimeLimiter;
 import com.google.common.util.concurrent.TimeLimiter;
 
 import java.util.Date;
-import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
-import java.util.concurrent.atomic.AtomicInteger;
 
 /**
  * 多线程限流
@@ -46,12 +44,12 @@ public class Main {
      */
 
     public void executeTimeLimiter() throws Exception {
-        TimeLimiter timeLimiter = new SimpleTimeLimiter(executorService);
+        TimeLimiter timeLimiter = SimpleTimeLimiter.create(executorService);
         timeLimiter.callWithTimeout(() -> {
             System.out.println(initNum++);
             Thread.sleep((initNum % 10) * 100L);
             return true;
-        }, 400L, TimeUnit.MILLISECONDS, false);//修改400为200,300,400观察效果
+        }, 400L, TimeUnit.MILLISECONDS);//修改400为200,300,400观察效果
     }
 
     public void excuteRateLimiter() throws Exception {
@@ -59,7 +57,7 @@ public class Main {
         executorService.submit((Runnable) () -> {
             try {
                 Thread.sleep((initNum++ % 10) * 100L);
-                System.out.println(initNum+ "   " + (new Date().getTime() - 1488510734857L));
+                System.out.println(initNum + "   " + (new Date().getTime() - 1488510734857L));
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
