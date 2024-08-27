@@ -19,17 +19,13 @@ package kafka.kafka_stream;
 
 import org.apache.kafka.clients.consumer.ConsumerConfig;
 import org.apache.kafka.common.serialization.Serdes;
-import org.apache.kafka.common.utils.SystemTime;
 import org.apache.kafka.streams.KafkaStreams;
-import org.apache.kafka.streams.KeyValue;
 import org.apache.kafka.streams.StreamsConfig;
-import org.apache.kafka.streams.kstream.*;
-import org.apache.kafka.streams.processor.Processor;
-import org.apache.kafka.streams.processor.ProcessorSupplier;
+import org.apache.kafka.streams.kstream.ForeachAction;
+import org.apache.kafka.streams.kstream.KStream;
 
-import java.io.*;
-import java.util.Arrays;
-import java.util.Locale;
+import java.io.FileNotFoundException;
+import java.io.PrintWriter;
 import java.util.Properties;
 
 /**

@@ -1,9 +1,5 @@
 package basicExercise.fileWatcher;
 
-import com.google.common.io.Resources;
-
-import java.io.IOException;
-
 /**
  * Created by jinyan on 6/11/17.
  */

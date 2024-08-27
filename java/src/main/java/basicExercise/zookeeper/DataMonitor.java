@@ -3,15 +3,16 @@ package basicExercise.zookeeper;
  * A simple class that monitors the data and existence of a ZooKeeper
  * node. It uses asynchronous ZooKeeper APIs.
  */
-import java.util.Arrays;
 
+import org.apache.zookeeper.AsyncCallback.StatCallback;
 import org.apache.zookeeper.KeeperException;
+import org.apache.zookeeper.KeeperException.Code;
 import org.apache.zookeeper.WatchedEvent;
 import org.apache.zookeeper.Watcher;
 import org.apache.zookeeper.ZooKeeper;
-import org.apache.zookeeper.AsyncCallback.StatCallback;
-import org.apache.zookeeper.KeeperException.Code;
 import org.apache.zookeeper.data.Stat;
+
+import java.util.Arrays;
 
 public class DataMonitor implements Watcher, StatCallback {
 
