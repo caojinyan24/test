@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d828f001-3efa-4571-b32c-bdf09207184f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/basicExercise/algorithm/e202504/LinkedArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/main/java/basicExercise/algorithm/stringandarray/Sum.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/main/java/basicExercise/algorithm/e202504/Sum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/main/java/basicExercise/algorithm/e202504/LinkedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/main/java/basicExercise/algorithm/e202504/LinkedArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +47,8 @@
   "keyToString": {
     "Application.DeadLockDemo.executor": "Run",
     "Application.GCDemo.executor": "Run",
+    "Application.LinkedArray (1).executor": "Run",
+    "Application.LinkedArray.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.Sum.executor": "Run",
     "Application.UnsafeTest.executor": "Run",
@@ -61,6 +64,9 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "com.sankuai.xframe.mcopilot.intellij.settings.SettingsConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
@@ -78,7 +84,7 @@
       <recent name="basicExercise.algorithm.strings" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Sum">
+  <component name="RunManager" selected="Application.LinkedArray">
     <configuration name="GCDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="jvm.GCDemo" />
       <module name="demos" />
@@ -86,6 +92,32 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="jvm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinkedArray (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basicExercise.algorithm.e202504.LinkedArray" />
+      <module name="java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="basicExercise.algorithm.e202504.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinkedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basicExercise.algorithm.e202504.LinkedArray" />
+      <module name="java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="basicExercise.algorithm.e202504.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,11 +139,15 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.LinkedArray" />
+      <item itemvalue="Application.LinkedArray (1)" />
       <item itemvalue="Application.Sum" />
       <item itemvalue="Application.GCDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LinkedArray" />
+        <item itemvalue="Application.LinkedArray (1)" />
         <item itemvalue="Application.Sum" />
         <item itemvalue="Application.GCDemo" />
       </list>
