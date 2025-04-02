@@ -1,26 +1,10 @@
 package basicExercise.qunar;
 
 
-
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileReader;
-import java.io.FilenameFilter;
-import java.io.IOException;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.io.*;
+import java.util.*;
 import java.util.regex.Pattern;
-//import estimateline.ClaClass;
-//import estimateline.ClaClass.DirFilter;
 
-
-
-import replace.Replace;
-import calculate.Calculate;
-import estimateline.SumLines;
 
 public class Main {
 	public static void main(String[] args)throws IOException {		
@@ -35,7 +19,7 @@ public class Main {
 		//c.Test();
  }
 }
-class CalClass{
+class CalClass1{
 	Map<String,Integer> map=new HashMap<String,Integer>();//�������г��ֵ���ʹ���
 	List<String> list=new ArrayList<String>();//������ִ���������
 	int max=0;

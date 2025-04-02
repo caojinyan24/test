@@ -1,8 +1,5 @@
 package basicExercise.thread.schedule2;
 
-import java.util.Date;
-import java.util.concurrent.TimeUnit;
-
 /**
  * Created by jinyancao on 4/11/17.
  */

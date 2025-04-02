@@ -8,16 +8,40 @@
     <artifactId>test</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
+    <repositories>
+        <repository>
+            <id>alimaven</id>
+            <name>aliyun maven</name>
+            <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
+        </repository>
+        <repository>
+            <id>central-repos1</id>
+            <name>Central Repository 2</name>
+            <url>http://repo1.maven.org/maven2/</url>
+        </repository>
+    </repositories>
     <modules>
         <module>demos</module>
         <module>java</module>
     </modules>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
     <dependencyManagement>
         <dependencies>
             <dependency>
                 <groupId>junit</groupId>
                 <artifactId>junit</artifactId>
-                <version>4.11</version>
+                <version>4.13.1</version>
             </dependency>
             <dependency>
                 <groupId>org.slf4j</groupId>
@@ -27,7 +51,7 @@
             <dependency>
                 <groupId>ch.qos.logback</groupId>
                 <artifactId>logback-core</artifactId>
-                <version>1.0.13</version>
+                <version>1.4.5</version>
             </dependency>
             <dependency>
                 <groupId>cglib</groupId>
@@ -37,18 +61,21 @@
             <dependency>
                 <groupId>com.google.guava</groupId>
                 <artifactId>guava</artifactId>
-                <version>21.0</version>
+                <version>31.1-jre</version>
             </dependency>
             <dependency>
                 <groupId>org.jboss.netty</groupId>
                 <artifactId>netty</artifactId>
                 <version>3.2.2.Final</version>
             </dependency>
+            <!-- https://mvnrepository.com/artifact/io.netty/netty-all -->
             <dependency>
                 <groupId>io.netty</groupId>
                 <artifactId>netty-all</artifactId>
                 <version>4.1.42.Final</version>
+
             </dependency>
+
             <!--netty demo dependency-->
             <dependency>
                 <groupId>com.esotericsoftware</groupId>
@@ -64,40 +91,34 @@
             <dependency>
                 <groupId>org.apache.logging.log4j</groupId>
                 <artifactId>log4j-api</artifactId>
-                <version>2.6.2</version>
+                <version>2.18.0</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.logging.log4j</groupId>
                 <artifactId>log4j-core</artifactId>
-                <version>2.6.2</version>
+                <version>2.18.0</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.logging.log4j</groupId>
                 <artifactId>log4j-slf4j-impl</artifactId>
-                <version>2.6.2</version>
+                <version>2.18.0</version>
             </dependency>
             <!--kafka-->
-            <!-- https://mvnrepository.com/artifact/org.apache.kafka/kafka_2.10 -->
-            <dependency>
-                <groupId>org.apache.kafka</groupId>
-                <artifactId>kafka_2.10</artifactId>
-                <version>0.10.2.1</version>
-            </dependency>
             <dependency>
                 <groupId>org.apache.kafka</groupId>
                 <artifactId>kafka-clients</artifactId>
-                <version>0.10.2.1</version>
+                <version>3.4.0</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.kafka</groupId>
                 <artifactId>kafka-streams</artifactId>
-                <version>0.10.2.1</version>
+                <version>3.4.0</version>
             </dependency>
             <!--kafka-->
             <dependency>
                 <groupId>org.springframework</groupId>
                 <artifactId>spring-webmvc</artifactId>
-                <version>4.2.3.RELEASE</version>
+                <version>5.3.25</version>
             </dependency>
             <dependency>
                 <groupId>javax.servlet</groupId>
@@ -107,7 +128,7 @@
             <dependency>
                 <groupId>org.apache.zookeeper</groupId>
                 <artifactId>zookeeper</artifactId>
-                <version>RELEASE</version>
+                <version>3.8.1</version>
             </dependency>
 
 
@@ -125,10 +146,16 @@
             <dependency>
                 <groupId>org.projectlombok</groupId>
                 <artifactId>lombok</artifactId>
-                <version>1.18.2</version>
+                <version>1.18.26</version>
+            </dependency>
+            <dependency>
+                <groupId>redis.clients</groupId>
+                <artifactId>jedis</artifactId>
+                <version>4.4.3</version> <!-- 请根据需要选择最新版本 -->
             </dependency>
 
 
         </dependencies>
     </dependencyManagement>
+
 </project>

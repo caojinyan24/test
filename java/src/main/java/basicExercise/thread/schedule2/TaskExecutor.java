@@ -2,7 +2,6 @@ package basicExercise.thread.schedule2;
 
 import java.util.Date;
 import java.util.concurrent.BlockingQueue;
-import java.util.concurrent.PriorityBlockingQueue;
 import java.util.concurrent.ThreadFactory;
 import java.util.concurrent.TimeUnit;
 

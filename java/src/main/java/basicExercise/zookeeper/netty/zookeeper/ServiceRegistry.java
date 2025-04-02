@@ -1,6 +1,5 @@
 package basicExercise.zookeeper.netty.zookeeper;
 
-import io.netty.util.Constant;
 import org.apache.zookeeper.*;
 
 import java.util.concurrent.CountDownLatch;

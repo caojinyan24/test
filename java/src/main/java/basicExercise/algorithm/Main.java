@@ -1,10 +1,11 @@
 package basicExercise.algorithm;
 
-import com.google.common.base.Strings;
 import com.google.common.collect.Lists;
 import com.google.common.collect.Sets;
 
-import java.util.*;
+import java.util.List;
+import java.util.Random;
+import java.util.Set;
 
 /**
  * Created by jinyan.cao on 2017/2/12.
