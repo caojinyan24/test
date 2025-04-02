@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d828f001-3efa-4571-b32c-bdf09207184f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/demos/src/main/java/doc/future.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demos/src/main/java/doc/stability.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demos/src/main/java/doc/算法.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/main/java/basicExercise/algorithm/stringandarray/Sum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demos/src/main/java/doc/jdk" beforeDir="false" afterPath="$PROJECT_DIR$/demos/src/main/java/doc/jdk.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/main/java/basicExercise/algorithm/e202504/LinkedArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/main/java/basicExercise/algorithm/stringandarray/Sum.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/main/java/basicExercise/algorithm/e202504/Sum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +47,7 @@
     "Application.DeadLockDemo.executor": "Run",
     "Application.GCDemo.executor": "Run",
     "Application.Main.executor": "Run",
-    "Application.Sum.executor": "Debug",
+    "Application.Sum.executor": "Run",
     "Application.UnsafeTest.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -98,11 +94,11 @@
       </method>
     </configuration>
     <configuration name="Sum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basicExercise.algorithm.stringandarray.Sum" />
+      <option name="MAIN_CLASS_NAME" value="basicExercise.algorithm.e202504.Sum" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basicExercise.algorithm.stringandarray.*" />
+          <option name="PATTERN" value="basicExercise.algorithm.e202504.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>

@@ -1,13 +1,12 @@
-package basicExercise.algorithm.stringandarray;
+package basicExercise.algorithm.e202504;
 
 import com.google.common.collect.Lists;
-import com.google.common.collect.Ordering;
 import org.junit.Assert;
-import org.springframework.util.comparator.InstanceComparator;
 
 import java.util.*;
 
-//题目：
+//1. 数组与字符串
+// 题目：
 //两数之和：给定一个数组和目标值，找到两个数使得它们的和等于目标值。
 //最长无重复子串：找到字符串中最长的无重复字符子串。"adfawefafad"
 //螺旋矩阵：按螺旋顺序打印二维数组。
