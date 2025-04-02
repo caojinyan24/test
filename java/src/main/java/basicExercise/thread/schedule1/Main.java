@@ -1,7 +1,5 @@
 package basicExercise.thread.schedule1;
 
-import java.util.Date;
-
 /**
  * todo:
  * 1. 所有任务保持在一个list

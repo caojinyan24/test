@@ -38,26 +38,11 @@
 */
 package basicExercise.qunar;
 //import java.lang.Character;
-import java.text.DateFormat;
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Calendar;
-import java.util.Collections;
-import java.util.Date;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Map;
-import java.util.Scanner;
-import java.util.Set;
-import java.util.SortedSet;
-import java.util.TreeSet;
+
 import java.io.*;
 import java.net.HttpURLConnection;
 import java.net.URL;
+import java.util.*;
 public class Replace {
 	public void Test(){
 		//String s1=new String("$func1(123)hsd$func2(5)abc$");

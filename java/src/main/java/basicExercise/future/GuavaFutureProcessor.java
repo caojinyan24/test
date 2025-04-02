@@ -34,7 +34,7 @@ public class GuavaFutureProcessor {
                 System.out.println("get data after fail" + new Date().getTime() / 1000);
                 System.out.println("fail");
             }
-        });
+        },service);
     }
 
 }

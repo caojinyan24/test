@@ -2,11 +2,9 @@ package basicExercise.thread.schedule2;
 
 import java.util.AbstractQueue;
 import java.util.Collection;
-import java.util.Date;
 import java.util.Iterator;
 import java.util.concurrent.BlockingDeque;
 import java.util.concurrent.BlockingQueue;
-import java.util.concurrent.Delayed;
 import java.util.concurrent.TimeUnit;
 
 /**

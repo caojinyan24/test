@@ -1,11 +1,9 @@
 package basicExercise;
 
-import com.google.common.collect.ImmutableList;
 import com.google.common.collect.Lists;
-import com.google.common.collect.Sets;
 
-import java.nio.charset.Charset;
-import java.util.*;
+import java.util.Iterator;
+import java.util.List;
 
 /**
  * 循环中改变集合元素的时候会校验是否可改变。在循环中会改变集合结构，每次操作remove或next的时候都会校验容器结构是否发生变化。
